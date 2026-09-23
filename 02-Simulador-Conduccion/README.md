@@ -1,46 +1,52 @@
-Caso de estudio: Simulador de vehículo de conducción
-# Simulador de Transmisión Mecánica
+# 02 - Simulador de Conducción
 
 ## Descripción
 
-Caso de estudio correspondiente a un simulador de transmisión mecánica para un vehículo de competición.
-
-El sistema representa la interacción entre componentes como la palanca, selector de marcha, selector de modo, unidad de control, embrague, pedal, caja de cambios y engranajes.
+Este espacio contiene los artefactos relacionados con el caso de estudio
+"Simulador de Transmisión Mecánica", utilizados para documentar los requisitos,
+el diseño, las pruebas y la trazabilidad.
 
 ## Artefactos
 
-- SRS - Especificación de Requisitos de Software
-- Modelo de clases
-- Test Case
+- SRS – Especificación de Requisitos de Software
+- Modelo estructural – Diagrama de clases
+- Test Case – TC_FUNCT_01
+- Diagrama de secuencia – RF-01 Cambio de marcha
+- Resultado de prueba – RES-001
 
-## SRS
+## Requisito principal
 
-La especificación de requisitos documenta el propósito, alcance, funcionalidades, restricciones y requisitos específicos del simulador.
+**RF-01 – Cambio de marcha**
 
-Versión: 1.0
+El sistema debe permitir gestionar el cambio de marcha dentro del simulador
+de transmisión mecánica.
 
-## Modelo de clases
+## Metadatos
 
-El modelo de clases representa los componentes y relaciones principales del sistema de transmisión mecánica.
-
-## Test Case
-
-El caso de prueba permite verificar el cumplimiento de los requisitos mediante pruebas y contiene una relación entre requisitos y casos de prueba.
-
-## Requisito de referencia
-
-RF-01: Cambio de marcha.
-
-El simulador debe permitir realizar el cambio de marcha de acuerdo con las condiciones definidas para el sistema.
+| Campo | Información |
+|---|---|
+| ID único | SC-ART-001 |
+| Versión | 1.0 |
+| Estado final | Cerrado |
+| Autor / Revisor | Estudiante |
+| Fecha de cierre | 22/09/2026 |
+| Artefactos relacionados | SRS, modelo de clases, Test Case, diagrama de secuencia y resultado de prueba |
 
 ## Trazabilidad
 
-Los artefactos serán relacionados posteriormente en la matriz de trazabilidad de la Unidad 4:
+La relación entre los artefactos permite seguir el flujo:
 
-Requisito → Modelo → Caso de prueba → Resultado
+**RF-01 → SRS → Modelo de diseño → Diagrama de secuencia → TC_FUNCT_01 → RES-001**
 
-## Control de versión
+## Control de versiones
 
-Versión inicial: 1.0
+**Versión:** 1.0
 
-Artefactos utilizados para la gestión de conocimiento y trazabilidad de requisitos de la Unidad 4.
+Los artefactos se gestionan mediante GitHub como sistema de control de
+versiones para conservar el historial de cambios y facilitar la trazabilidad.
+
+## Observación
+
+El resultado **RES-001** corresponde a una prueba simulada elaborada para la
+Actividad 1 de Trazabilidad. No constituye evidencia de una ejecución real
+del software.
