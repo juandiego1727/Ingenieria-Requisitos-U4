@@ -1,36 +1,44 @@
-Caso de estudio: Empresa de Operaciones Aéreas
-# Empresa de Operaciones Aéreas
+# 01 - Compañía Aérea
 
 ## Descripción
 
-Caso de estudio relacionado con la gestión de operaciones y tripulaciones de una empresa de operaciones aéreas.
-
-Los artefactos documentan las necesidades del sistema, la gestión del backlog y el control de cambios de requisitos.
+Este espacio contiene los artefactos relacionados con el caso de estudio
+"Empresa de Operaciones Aéreas", utilizados para gestionar y dar trazabilidad
+a los requisitos del sistema.
 
 ## Artefactos
 
 - Product Vision Board
 - Product Backlog
 - Request for Change (RFC)
+- Matriz y relaciones de trazabilidad
 
-## Product Vision Board
+## Metadatos
 
-Define la visión y propósito del producto, sus usuarios y necesidades principales.
+| Campo | Información |
+|---|---|
+| ID único | CA-ART-001 |
+| Versión | 1.0 |
+| Estado final | Cerrado |
+| Autor / Revisor | Estudiante |
+| Fecha de cierre | 22/09/2026 |
+| Artefactos relacionados | Product Vision Board, Product Backlog y RFC |
 
-## Product Backlog
+## Control de versiones
 
-Contiene las funcionalidades y necesidades identificadas para el sistema.
+**Versión:** 1.0
 
-## Request for Change
-
-Documento utilizado para registrar y gestionar una solicitud de cambio de requisitos.
+Los artefactos se gestionan mediante GitHub como sistema de control de
+versiones para conservar el historial de cambios y facilitar la trazabilidad.
 
 ## Trazabilidad
 
+La relación entre los artefactos permite seguir el flujo:
+
+**Necesidad del negocio → Product Vision Board → Product Backlog → RFC**
+
+## Observaciones
+
+Los artefactos corresponden a los documentos desarrollados durante las
+actividades anteriores del caso de estudio.
 Los artefactos de este caso serán relacionados posteriormente en la matriz de trazabilidad de la Unidad 4.
-
-## Control de versión
-
-Versión inicial: 1.0
-
-Artefactos utilizados para la gestión de conocimiento y trazabilidad de requisitos de la Unidad 4.
