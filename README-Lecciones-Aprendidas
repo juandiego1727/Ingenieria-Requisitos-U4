@@ -1,0 +1,39 @@
+# Lecciones aprendidas – Ingeniería de Requisitos
+
+## Introducción
+
+Durante el desarrollo de las actividades de Ingeniería de Requisitos se trabajó con tres casos de estudio: Empresa de Operaciones Aéreas, Simulador de Vehículo de Conducción y Aplicación Dietas al Día.
+
+El proceso permitió construir diferentes artefactos de requisitos, diseño, validación y gestión de cambios, además de organizar la información en un repositorio con control de versiones.
+
+## 1. ¿Qué práctica de ingeniería de requisitos funciona y por qué debería usarse?
+
+Una práctica que funcionó adecuadamente fue la trazabilidad de los requisitos mediante identificadores y la relación entre los diferentes artefactos del proyecto.
+
+La utilización de identificadores únicos, versiones, estados, fechas y artefactos relacionados facilita conocer el origen de un requisito, los elementos que dependen de él y las evidencias utilizadas para su validación.
+
+Esta práctica debería mantenerse porque permite detectar inconsistencias y facilita el seguimiento del requisito desde la necesidad inicial hasta su diseño, implementación y prueba.
+
+También fue útil utilizar un repositorio con control de versiones para organizar los artefactos y mantener una estructura clara del proyecto.
+
+## 2. ¿Qué técnica de gestión de requisitos falló y cómo se podría detectar?
+
+Una dificultad identificada durante el proceso fue no establecer desde el inicio una trazabilidad completa entre todos los artefactos y la implementación.
+
+Esta situación se detectó al elaborar la matriz de trazabilidad, donde fue necesario revisar nuevamente la relación entre requisitos, prototipos, pruebas, resultados y código.
+
+Para detectarlo de manera temprana, sería conveniente revisar la matriz de trazabilidad durante cada etapa del proyecto y no solamente al finalizar las actividades.
+
+## 3. ¿Qué haríamos diferente en el proceso de gestión de requisitos?
+
+Desde el inicio estableceríamos una identificación única para cada requisito y definiríamos explícitamente sus artefactos relacionados.
+
+También construiríamos la matriz de trazabilidad de manera progresiva, actualizándola cada vez que se cree o modifique un requisito, diseño, caso de prueba o elemento de implementación.
+
+Finalmente, utilizaríamos desde las primeras etapas un repositorio con control de versiones y una estructura definida para almacenar los artefactos, facilitando su consulta, seguimiento y validación.
+
+## Conclusión
+
+El proceso permitió comprender que la gestión de requisitos no termina con la definición de los requisitos, sino que requiere mantener su relación con el diseño, la implementación, las pruebas y los resultados.
+
+La trazabilidad, la documentación de metadatos y el control de versiones permiten mejorar la organización y facilitar el seguimiento de los cambios durante el desarrollo del proyecto.
